@@ -21,6 +21,7 @@ src/luacov.stats.out
 
 # Release
 manifest-updated.xml
+tools/dist/
 
 # GGPK Export
 src/Export/ggpk/metadata/

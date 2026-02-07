@@ -17,8 +17,28 @@ An offline build planner for Path of Exile 2!
   <img alt="Items tab" src="https://github.com/user-attachments/assets/de8e6dc0-1e1a-46c5-b8a4-18877e67d48d" width="48%" />
 </p>
 
-## Download
-Head over to the [Releases](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases) page to download the install wizard or portable zip.
+## Download / Jak pobrać
+
+**⚠️ Ten fork nie ma Releases.** Oficjalne releases są na [PathOfBuildingCommunity](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases).
+
+*This fork has no Releases. Official releases are at [PathOfBuildingCommunity](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases).*
+
+### Jak skorzystać z tego forka / How to use this fork
+
+| Sposób | Opis |
+|--------|------|
+| **1. Portable (klonowanie)** | `git clone` repozytorium → uruchom `run_portable.bat` |
+| **2. Portable (ZIP)** | Uruchom `tools\make_portable.ps1` → rozpakuj powstały ZIP → uruchom `run_portable.bat` |
+| **3. Instalator EXE** | Wymaga NSIS — zobacz `tools/BUILD_INSTRUCTIONS.md` |
+
+Szczegóły: **[tools/BUILD_INSTRUCTIONS.md](tools/BUILD_INSTRUCTIONS.md)**
+
+### Narzędzia w repozytorium
+
+- `run_portable.bat` — uruchamia PoB (po sklonowaniu)
+- `tools/make_portable.ps1` — tworzy archiwum ZIP portable
+- `tools/make_portable.bat` — skrót do skryptu PowerShell
+- `tools/BUILD_INSTRUCTIONS.md` — pełna instrukcja (PL/EN)
 
 ## Features
 * Comprehensive offence + defence calculations:
