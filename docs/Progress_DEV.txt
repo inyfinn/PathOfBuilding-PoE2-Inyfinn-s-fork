@@ -74,6 +74,12 @@
 - CHANGELOG_TRADE_MODULE.md, Progress_*.txt – można dodać do docs/ lub root repo
 - Da się – struktura repo spójna (src/Classes, src/Modules). Copy overwrite → git add → commit → push
 
+=== 2025-02-05: SYNC DO INYFINN FORK ===
+- Repo: https://github.com/inyfinn/PathOfBuilding-PoE2-Inyfinn-s-fork
+- Wszystkie zmiany skopiowane: TradeQuery, TradeQueryRequests, TradeQueryGenerator, ItemsTab,
+  Tooltip, ButtonControl, CheckBoxControl, DropDownControl, PopupDialog, Main, Build, Launch.
+- Docs: CHANGELOG_TRADE_MODULE.md, Progress_*.txt
+
 === PENDING ===
 - Verify all features work end-to-end
 - Optional: Query Options "Online Status" / "Listing Type" filters (PRD Feature E)
